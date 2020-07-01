@@ -1,0 +1,71 @@
+@import url(../css/css/font-awesome.min.css);
+.panel{
+    width: 9vh;
+    height: 100vh;
+    text-align: center;
+    float: left;
+    z-index: 10;
+    border-right: 1px solid #E7DFDDE7;
+    background-color: #1d1e22;
+}
+.panel ul li{
+    padding: 10px 0px;
+    list-style: none;
+    cursor: pointer;
+    color: #E7DFDDE7;
+    margin: 4px;
+    /* border: 1px solid blue; */
+    font-size: 13px;
+}
+.panel ul li img{
+    width: 20px;
+    z-index:-1;
+    height: 20px;
+    /* border: 1px solid red; */
+}
+.panel img[alt="home-img"]{
+    width: 18px;
+    height: 18px;
+}
+
+.panel img[alt="about-img"]{
+    width: 17px;
+    height: 17px;
+}
+.panel img[alt="projects-img"]{
+    width: 17px;
+    height: 17px;
+}
+.panel nav{
+    margin-top: 20px;
+}
+.panel ul li:hover{
+    color:  #feda6a;
+    transition: ease-in;
+    transition-duration: 0.5s;
+}
+.panel .social-icons{
+    position: absolute;
+    width: 4%;
+    bottom: 0%;
+    margin-bottom: 1%;
+}
+.panel .social-icons a{
+    display: block;
+    text-decoration: none;    
+    color: #95A5A6;
+    font-size: 18px;
+    margin: 14px 0px;
+}
+.panel .social-icons a:hover{
+    color:  #feda6a;
+}
+.panel .logo{
+    background-image: url(../imgs/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: 65px;
+    margin: 10px 0px 0px 5px;
+
+}
