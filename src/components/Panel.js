@@ -23,11 +23,12 @@ class Panel extends Component {
     
         pageLists.forEach((pageList, pos)=>{
             let listText;
-            let imgSrc;
+
             pageList.setAttribute('value',pages[pos]);
             pageList.addEventListener('mouseover', ()=>{
+                
                 listText = pageList.innerHTML;
-                imgSrc = imgs[pos].src;
+                //let imgSrc = imgs[pos].src;
                 imgs[pos].src = require(`../imgs/${hoverImgs[pos]}.png`);
                 pageList.appendChild(document.createTextNode(pages[pos]));
             });
@@ -55,10 +56,10 @@ class Panel extends Component {
                     </ul>
                 </nav> 
                 <section className="social-icons">
-                    <a title="Facebook" href="https://www.facebook.com/myaccount" className="fa fa-facebook"></a>
-                    <a title="Twitter" href="https://www.twitter.com/myaccount" className="fa fa-twitter"></a>
-                    <a title="GitHub" href="https://www.github.com/myaccount" className="fa fa-github"></a>
-                    <a title="LinkedIn" href="https://www.github.com/myaccount" className="fa fa-linkedin"></a>
+                    <a title="Facebook" href="https://www.facebook.com/myaccount" className="fa fa-facebook">{}</a>
+                    <a title="Twitter" href="https://www.twitter.com/myaccount" className="fa fa-twitter">{}</a>
+                    <a title="GitHub" href="https://www.github.com/myaccount" className="fa fa-github">{}</a>
+                    <a title="LinkedIn" href="https://www.github.com/myaccount" className="fa fa-linkedin">{}</a>
                 </section>
             </div>
         );

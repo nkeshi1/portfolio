@@ -16,10 +16,10 @@ class About extends Component {
                         <br/>By using the waterfall approach, the whole software development process should be broken down 
                         into separate phases. 
                         The output of one phase becomes the input for the next phase in an orderly manner.</p>
-                        <a href="" id="cvBtn">Download C.V <i className="fa fa-download"/></a>
+                        <a href="https://www.google.com/" id="cvBtn">Download C.V <i className="fa fa-download"/></a>
                     </section>
                     <section id="photo">
-                        <img src={require('../imgs/myphoto.jpg')}/>
+                        <img src={require('../imgs/myphoto.jpg')} alt="img" />
                     </section>
                 </main>
             </div>

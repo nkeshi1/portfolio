@@ -6,7 +6,7 @@ class Home extends Component {
     render() { 
         return (
             <div className="home-page">
-                <a href="" id="cvBtn">DOWNLOAD C.V. <i className="fa fa-download"/> </a>
+                <a href="https://www.instagram.com/" id="cvBtn">DOWNLOAD C.V. <i className="fa fa-download"/> </a>
                 <section>
                     <h1>Hi,</h1>
                     <p className="myname">i'm Nkansah Isaac</p>
